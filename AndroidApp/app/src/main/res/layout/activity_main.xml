@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.twiganator.androidapp.MainActivity">
+
+    <TextView
+        android:id="@+id/LoginText"
+        android:layout_width="128dp"
+        android:layout_height="54dp"
+        android:text="Login"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="224dp"
+        android:layout_height="51dp"
+        android:onClick="onButtonClick"
+        android:text="Sign in"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/forgotPassword"
+        android:layout_width="146dp"
+        android:layout_height="42dp"
+        android:ems="5"
+        android:inputType="textPersonName"
+        android:text="Forgot password"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="138dp"
+        android:layout_height="48dp"
+        android:text="Sign up"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+</android.support.constraint.ConstraintLayout>
